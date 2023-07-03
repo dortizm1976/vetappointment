@@ -7,8 +7,11 @@ function App() {
   return (
     <div className="container mx-auto mt-20">
       <Header/>
-     <Formulario/>
-     <PatientList/>
+      <div className="mt-12 md:flex">
+      <Formulario/>
+      <PatientList/>
+      </div>
+     
     </div>
   )
 }
